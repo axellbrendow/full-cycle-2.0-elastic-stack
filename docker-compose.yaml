@@ -53,15 +53,15 @@ services:
     networks:
       - observability
 
-  # heartbeat:
-  #   image: docker.elastic.co/beats/heartbeat:7.13.0
-  #   container_name: heartbeat
-  #   volumes:
-  #     - ./beats/heartbeat/heartbeat.yml:/usr/share/heartbeat/heartbeat.yml
-  #   environment:
-  #     - setup.kibana.host=kibana:5601
-  #   networks:
-  #     - observability
+  heartbeat:
+    image: docker.elastic.co/beats/heartbeat:7.13.0
+    container_name: heartbeat
+    volumes:
+      - ./beats/heartbeat/heartbeat.yml:/usr/share/heartbeat/heartbeat.yml
+    environment:
+      - setup.kibana.host=kibana:5601
+    networks:
+      - observability
 
   # apm:
   #   image: docker.elastic.co/apm/apm-server-oss:7.13.0
