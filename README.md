@@ -12,3 +12,15 @@ docker-compose up
 # Go to Observability->Uptime to see the containers uptime
 ```
 
+## Using Elastic APM
+
+Run the django application:
+
+```sh
+cd app
+docker-compose up
+```
+
+Now, go to localhost:8000 and you will receive a 404 not found, then, go to localhost:8000/exemplo and you will get a page.
+
+Now go to kibana on Observability->APM->Services->codeprogress-run->Transactions->/exemplo and see the trace.
