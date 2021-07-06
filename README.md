@@ -7,6 +7,8 @@ Files I produced during the "Observability / Elastic Stack" classes of the Full 
 ```sh
 docker network create observability
 docker-compose up
-# Then, access localhost:5601 to open kibana and go to Observability->Metrics to see docker the metrics of your computer
+# Then, access localhost:5601 to open kibana
+# Go to Observability->Metrics to see docker the metrics of your computer
+# Go to Observability->Uptime to see the containers uptime
 ```
 
