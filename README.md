@@ -1,6 +1,6 @@
 # full-cycle-2.0-elastic-stack
 
-Files I produced during the "Observability / Elastic Stack" classes of the Full Cycle 2.0 [course](https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing)
+Files I produced during the "Observability / Elastic Stack" classes of my [Microservices Full Cycle 2.0 course](https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing).
 
 ## Initial steps
 
